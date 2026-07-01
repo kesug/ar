@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>KING OF NIFTY - CA NITIN MURARKA</title>
     <meta name="description" content="Join King of Nifty by CA NITIN MURARKA for free daily analysis, Nifty & BankNifty levels, and expert stock market education.">
     <meta name="keywords" content="King of Nifty, CA NITIN MURARKA, Nifty Prediction, BankNifty Analysis, Stock Market India, Free Trading Calls">
     <meta property="og:title" content="KING OF NIFTY - CA NITIN MURARKA">
     <meta property="og:description" content="Join 50,000+ traders for FREE daily calls.">
     <meta property="og:image" content="IMAGE_URL_HERE">
-    <meta property="og:url" content="https://t.me/+DDcAsq_tIzs5MmE1">
+    <meta property="og:url" content="https://t.me/+jiEIYnw1x1QwZTFl">
     <meta property="og:type" content="website">
 
-    <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -28,8 +27,6 @@
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=2303324663815389&ev=PageView&noscript=1"
     /></noscript>
-    <!-- End Meta Pixel Code -->
-
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
         body{font-family:'Segoe UI',Arial,sans-serif;background:#f8f9fa;color:#1a1a2e;min-height:100vh;display:flex;justify-content:center}
@@ -90,17 +87,11 @@
             border-radius:14px;text-align:center;text-decoration:none;
             margin-bottom:20px;box-shadow:0 4px 14px rgba(0,102,255,.3);
             transition:all .15s ease;
-            cursor:pointer;border:none;width:100%;
-        }
-        .btn:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,102,255,.4)}
-        .btn:disabled, .btn.locked{
-            opacity:0.6;cursor:not-allowed;
-            background:linear-gradient(135deg,#666,#444);
-            box-shadow:none;transform:none;
-        }
-        .btn.ready{
+            cursor:pointer;border:none;
             animation:glow 1s ease-in-out infinite alternate;
         }
+        .btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,102,255,.4)}
+        
         @keyframes glow{
             from{box-shadow:0 4px 14px rgba(0,102,255,.4)}
             to{box-shadow:0 6px 30px rgba(0,102,255,.8)}
@@ -127,22 +118,20 @@
         .free-tag{color:#0066ff;font-size:12px;font-weight:600;margin-bottom:12px;text-align:center}
         .disc{max-width:380px;text-align:center;color:#aaa;font-size:10px;line-height:1.6;padding-top:20px;border-top:1px solid #eee}
         
-        /* Bottom CTA button matching the original look */
+        /* Bottom CTA button */
         .btn-bottom {
             display:block;width:100%;max-width:380px;
             background:#16192b;color:#fff;font-weight:700;font-size:16px;
             padding:14px;border-radius:14px;text-align:center;text-decoration:none;
             margin-bottom:8px;transition:opacity .2s;border:none;cursor:pointer;
         }
-        .btn-bottom:disabled, .btn-bottom.locked {
-            opacity:0.6;cursor:not-allowed;
-        }
+        .btn-bottom:hover{opacity: 0.9;}
     </style>
 </head>
 <body>
 <div class="container">
 
-    <div class="top-bar"><span></span>1 407 subscribers</div>
+    <div class="top-bar"><span></span>1,407 subscribers</div>
 
     <div class="avatar">
         <img src="nitin.jpg" alt="CA NITIN MURARKA">
@@ -157,9 +146,8 @@
         <small>4.9/5 (2,340 reviews)</small>
     </div>
 
-    <!-- First Main CTA Button (Locks and unlocks with timer) -->
-    <button class="btn locked" id="mainBtn" onclick="openTelegram()" disabled>
-        🔒 Link Unlocking in 10s...
+    <button class="btn" id="mainBtn" onclick="openTelegram()">
+        Join Free Telegram Channel →
     </button>
 
     <div class="stats">
@@ -173,9 +161,8 @@
 
     <div class="urgency">🔥 7,589 people joined today — Limited FREE access!</div>
 
-    <!-- Second Main CTA Button (Locks and unlocks with timer) -->
-    <button class="btn locked" id="secBtn" onclick="openTelegram()" disabled>
-        🔒 Link Unlocking in 10s...
+    <button class="btn" id="secBtn" onclick="openTelegram()">
+        Join Free Telegram Channel →
     </button>
 
     <div class="features">
@@ -187,20 +174,18 @@
 
     <div class="trust">✅ <b>Verified Channel</b> • Free Forever • No Spam</div>
 
-    <!-- Bottom CTA Button (Locks and unlocks with timer) -->
-    <button class="btn-bottom locked" id="bottomBtn" onclick="openTelegram()" disabled>
+    <button class="btn-bottom" id="bottomBtn" onclick="openTelegram()">
         Join Now — It's 100% FREE
     </button>
 
     <p class="free-tag">⏰ Limited time offer</p>
 
-    <!-- ===== COUNTDOWN TIMER BOX ===== -->
     <div class="countdown-wrapper">
         <div class="cd-label">
-            Link Unlocking Soon...
+            Redirecting to Telegram soon...
             <span>Do not close or refresh this page</span>
         </div>
-        <div id="cdTimer">00:10</div>
+        <div id="cdTimer">00:15</div>
     </div>
 
     <div class="disc">
@@ -211,22 +196,14 @@
 
 <script>
     const TELEGRAM_URL = "https://t.me/+jiEIYnw1x1QwZTFl";
-    let count = 10;
+    let count = 15; // Set to 15 seconds
     const timerEl = document.getElementById('cdTimer');
-    const btn1 = document.getElementById('mainBtn');
-    const btn2 = document.getElementById('secBtn');
-    const btn3 = document.getElementById('bottomBtn');
 
     function pad(n){ return n < 10 ? '0' + n : '' + n; }
 
     const timer = setInterval(function(){
         count--;
         timerEl.textContent = '00:' + pad(count);
-        
-        if(count > 0) {
-            btn1.textContent = `🔒 Link Unlocking in ${count}s...`;
-            btn2.textContent = `🔒 Link Unlocking in ${count}s...`;
-        }
 
         if(count <= 3 && count > 0){
             timerEl.classList.add('urgent');
@@ -235,26 +212,15 @@
         if(count <= 0){
             clearInterval(timer);
             timerEl.textContent = '00:00';
+            document.querySelector('.cd-label').innerHTML = 'Redirecting now... <span>If it doesn\'t redirect, click any button above</span>';
             
-            // All buttons unlock simultaneously
-            [btn1, btn2, btn3].forEach(btn => {
-                btn.disabled = false;
-                btn.classList.remove('locked');
-            });
-
-            btn1.classList.add('ready');
-            btn2.classList.add('ready');
-            
-            btn1.innerHTML = 'Join Free Telegram Channel →';
-            btn2.innerHTML = 'Join Free Telegram Channel →';
-            btn3.innerHTML = 'Join Now — It\'s 100% FREE';
-            
-            document.querySelector('.cd-label').innerHTML = 'Link Unlocked! <span>Click any button above to join</span>';
+            // Auto Redirect to Telegram Link
+            window.location.href = TELEGRAM_URL;
         }
     }, 1000);
 
+    // Manual click function
     function openTelegram(){
-        if(btn1.disabled) return; 
         window.open(TELEGRAM_URL, '_blank');
     }
 </script>
